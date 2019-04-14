@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['ghelp','by tripleX' , 'GD Server'];
+    var setGame = ['ghelp For Orders','By GD Team'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -207,7 +207,7 @@ client.on('message',async message => {
     
 if(message.author.bot) return;
 if(!credits[message.author.id]) credits[message.author.id] = {
-    credits: 50
+    credits: 1000000000
 };
 
 let userData = credits[message.author.id];
